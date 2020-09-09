@@ -40,6 +40,7 @@ public class SymptomServices {
     /**
      * generates symptomDao result.out with symptom name and frequency
      * if existing, replace the old by the new
+     * @param filepath
      */
     public void writeResultTo(String filepath) {
         Map <Symptom, Integer> map = countFrequency();

@@ -12,8 +12,19 @@ public class Symptom implements Comparable<Symptom>{
     public Symptom (String name) {
         this.name = name.toLowerCase();
     }
+
+    /**
+     * returns the name of the symptom
+     *
+     * @return name
+     */
     public String getName() { return name; }
 
+    /**
+     * sets symptom name in lower case
+     * 
+     * @param name
+     */
     public void setName(String name){ this.name = name.toLowerCase(); }
 
     @Override
