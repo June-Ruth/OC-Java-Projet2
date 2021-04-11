@@ -1,1 +1,6 @@
-# Project_DA_Java_EN_Come_to_the_Rescue_of_a_Java_Application
+# Symptom App
+
+From a datasource, return a new file with list of `Symptom` and its **frequency**
+in **alphabetical order**. 
+
+For the beta-test : file reading only, with one symptom per line
